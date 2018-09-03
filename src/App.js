@@ -4,6 +4,7 @@ import './App.css';
 
 import Header from './Header';
 import HomePage from './HomePage'
+import PostsPage from './PostsPage'
 
 class App extends Component {
   render() {
@@ -12,6 +13,7 @@ class App extends Component {
         <div>
           <Header />
           <Route exact path="/" component={HomePage} />
+          <Route path="/posts" component={PostsPage} />
         </div>
       </Router>
     );

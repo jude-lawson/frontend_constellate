@@ -3,10 +3,77 @@
 }
 
 header {
-  height: 80px;
+  height: 110px;
   padding: 0 20px;
-  background: aliceblue;
+  background: rgba(0,0,0,.4);
   display: flex;
   align-items: center;
-  justify-content: flex-end;
+  justify-content: space-between;
 }
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  background-image: url('./images/christian-nielsen-136548-unsplash.jpg');
+  background-size: 100%;
+  background-color: #777;
+  background-blend-mode: multiply;
+  color: #FEFEFE;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 80px;
+  justify-content: flex-start;
+  /* text-align: center; */
+  height: calc(100vh - 110px);
+}
+
+#splash-intro {
+  width: 40%;
+  margin: 0 auto;
+  font-size: 42px;
+}
+
+#headings-container h1 {
+  margin: 4px;
+}
+
+#headings-container h4 {
+  margin: 4px;
+}
+
+#get-started {
+  color: #FFF;
+  text-decoration: none;
+  border: 2px solid #FFF;
+  transition: .2s ease-in-out;
+  padding: 4px;
+  margin-top: 12px;
+}
+
+#get-started:hover {
+  background-color: #FFF;
+  color: #000;
+  transition: .2s ease-in-out;
+}
+
+h1 {
+  font-family: 'Abel', sans-serif;
+  font-size: 64px;
+}
+
+nav a {
+  color: #FFF;
+  text-decoration: none;
+  border: 2px solid transparent;
+  transition: .2s ease-in-out;
+  padding: 4px;
+}
+
+nav a:hover {
+  border-color: #FFF;
+  transition: .2s ease-in-out;
+}
+
